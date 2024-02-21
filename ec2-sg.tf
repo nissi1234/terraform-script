@@ -1,6 +1,6 @@
 # Creating Security Group for EC2 Instance
 resource "aws_security_group" "ec2-SG" {
-  vpc_id = aws_vpc.demovpc.id
+  vpc_id = aws_vpc.vpc.id
 
   # Inbound Rules
   # HTTP access from anywhere
